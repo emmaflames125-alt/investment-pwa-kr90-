@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 import { VitePWA } from 'vite-plugin-pwa'
 
 export default defineConfig({
-  base: '/investment-pwa-kr90/',   // ← CHANGED TO YOUR REPO NAME
+  base: '/investment-pwa-kr90-/',   // ← CHANGED TO YOUR REPO NAME
   plugins: [
     react(),
     VitePWA({
